@@ -241,7 +241,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--brand-text); ou
         </div>
       </div>
     </div>
-    <p class="privacy-line">Всё хранится только на телефоне: без аккаунта, без сервера, без передачи данных.</p>
+    <p class="privacy-line">Дневник хранится только на телефоне: без аккаунта и&nbsp;без сервера. Моменты уходят только тем друзьям, кому вы&nbsp;отправите их сами.</p>
   </header>
 
   <p class="thanks"><b>Спасибо, что тестируете dayMoments.</b> Это ранняя версия, и&nbsp;в&nbsp;ней ещё могут быть ошибки. Ваши отзывы подскажут мне, что исправить, чтобы приложением было приятно пользоваться каждый день.</p>
@@ -299,7 +299,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--brand-text); ou
     <h2 id="report-title">Если <span class="nobr">что-то</span> пошло не так</h2>
     <ul class="list">
       <li><span><b>Странное или сломанное.</b> Сделайте снимок экрана: TestFlight сам предложит отправить отзыв, его увижу только я.</span></li>
-      <li><span><b>Пропал момент, не открылась камера, не сохранилось видео.</b> Пришлите журнал: <span class="path">«Настройки» <span class="key key-ghost" role="img" aria-label="кнопка шестерёнки" title="Настройки"><svg aria-hidden="true" focusable="false"><use href="#i-gear"/></svg></span> справа вверху → «Отправить журнал разработчику» → «Почта»</span>, адрес&nbsp;— <span class="path">daymoments.app@gmail.com</span>.</span></li>
+      <li><span><b>Пропал момент, не открылась камера, не сохранилось видео.</b> Пришлите журнал: <span class="path">«Настройки» <span class="key key-ghost" role="img" aria-label="кнопка шестерёнки" title="Настройки"><svg aria-hidden="true" focusable="false"><use href="#i-gear"/></svg></span> справа вверху → «Журнал для разработчика» → «Отправить журнал» → «Почта»</span>, адрес&nbsp;— <span class="path">daymoments.app@gmail.com</span>.</span></li>
       <li><span><b>Приложение закрылось само.</b> TestFlight предложит отправить отчёт. Соглашайтесь: так я&nbsp;увижу, где именно случился сбой.</span></li>
       <li><span><b>Вопросы и&nbsp;идеи.</b> Если <span class="nobr">что-то</span> непонятно, <span class="nobr">чего-то</span> не хватает или хочется, чтобы приложение работало иначе, напишите: почта <span class="path">daymoments.app@gmail.com</span> или Telegram <a href="https://t.me/necktra" target="_blank" rel="noopener">@necktra</a>.</span></li>
     </ul>
@@ -311,7 +311,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--brand-text); ou
     <ul class="list">
       <li><span>Видео, подписи и&nbsp;подборки хранятся только на вашем телефоне и&nbsp;попадают в&nbsp;резервную копию iCloud по обычным настройкам iOS. Приложение не выходит в&nbsp;интернет, в&nbsp;нём нет аккаунтов, аналитики и&nbsp;рекламы.</span></li>
       <li><span><b>Самое важное сохраняйте в&nbsp;«Фото».</b> Это бета: при обновлении <span class="nobr">что-то</span> может пойти не так, и&nbsp;моменты могут пропасть. Я&nbsp;тщательно проверяю каждую новую версию, но дни и&nbsp;подборки, которые вам особенно дороги, лучше сохранить в&nbsp;«Фото» кнопкой <span class="key key-media" role="img" aria-label="кнопкой «Сохранить или поделиться»" title="Сохранить или поделиться"><svg aria-hidden="true" focusable="false"><use href="#i-share"/></svg></span> под видео.</span></li>
-      <li><span>Журнал уходит, только когда вы отправите его сами. В&nbsp;нём технические записи о&nbsp;съёмке: время попыток, настройки камеры, ошибки, модель телефона. Видео, подписей и&nbsp;названий подборок в&nbsp;нём нет.</span></li>
+      <li><span><b>Моменты уходят другим людям, только когда вы&nbsp;отправите их сами.</b> Рядом&nbsp;— с&nbsp;телефона на&nbsp;телефон по&nbsp;Wi-Fi, без интернета; издалека&nbsp;— файлом через AirDrop или мессенджер, который выберете вы. Вместе с&nbsp;моментом уходят его подпись и&nbsp;время, ваши имя и&nbsp;фото из&nbsp;«Профиля». Моменты незнакомых приходят только после вашего «Принять», любого автора можно заблокировать, а&nbsp;«Пожаловаться» отправляет мне письмо с&nbsp;номерами момента и&nbsp;автора&nbsp;— без самого видео.</span></li>
+      <li><span>Журнал уходит, только когда вы&nbsp;отправите его сами. В&nbsp;нём технические записи о&nbsp;съёмке и&nbsp;обмене с&nbsp;друзьями: время попыток, настройки камеры, коды ошибок, модель телефона, сколько моментов ушло и&nbsp;пришло. Видео, подписей, названий подборок и&nbsp;имён друзей в&nbsp;нём нет.</span></li>
     </ul>
   </section>
 
@@ -366,7 +367,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--brand-text); ou
         <p>Так iOS отмечает приложения, установленные из TestFlight. После выхода в&nbsp;App Store её не будет.</p>
       </details>
       <details>
-        <summary>Сколько работает <span class="nobr">бета-версия</span>?</summary>
+        <summary><span>Сколько работает <span class="nobr">бета-версия</span>?</span></summary>
         <p>Каждая сборка в&nbsp;TestFlight работает 90 дней. Новые сборки будут приходить раньше, TestFlight пришлёт уведомление.</p>
       </details>
       <details>
@@ -379,7 +380,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--brand-text); ou
 
   <footer class="foot">
     <span>dayMoments · <span class="nobr">бета-тест</span></span>
-    <span>Версия 1.0.0, сборка 36</span>
+    <span>Версия 1.0.0, сборка 37</span>
   </footer>
 </main>
 
